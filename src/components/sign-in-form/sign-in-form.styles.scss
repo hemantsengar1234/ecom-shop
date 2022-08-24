@@ -13,8 +13,22 @@
   }
 }
 
-@media(max-width:500px){
-  .sign-in-container{
+@media (max-width: 500px) {
+  .sign-in-container {
     width: 250px;
+
+    .buttons-container {
+      .sign-in {
+        width: 70px;
+        border: none;
+        background: black;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+      }
+    }
   }
 }

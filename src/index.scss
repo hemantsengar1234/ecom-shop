@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 10px 20px;
+  padding: 15px 30px;
   font-family: 'Open Sans Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -23,5 +23,8 @@ a {
 @media (max-width: 500px){
   *{
     font-size: 11px;
+  }
+  body{
+    padding: 10px 15px;
   }
 }

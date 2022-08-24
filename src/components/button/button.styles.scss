@@ -47,9 +47,10 @@
 
 @media (max-width: 500px){
   .button-container {
-    width: 50px;
     min-width: 20%;
     height: 50px;
+
+    
 
     &.google-sign-in{
       width: 145px;
